@@ -1,0 +1,12 @@
+services:
+  console-frontend:
+    build:
+      context: "./frontend"
+    ports:
+      - "8080:8080"
+  
+  console-backend:
+    build:
+      context: "./backend"
+    ports:
+      - "5001:5000"

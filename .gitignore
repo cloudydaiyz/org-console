@@ -1,0 +1,4 @@
+frontend/config/settings.json
+backend/config/settings.json
+backend/config/credentials.json
+backend/config/token.json

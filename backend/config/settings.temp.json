@@ -1,0 +1,13 @@
+{
+    "ranges": {
+        "point_calcs": "[SPREADSHEET RANGE]",
+        "event_log": "[SPREADSHEET RANGE]",
+        "membership_log": "[SPREADSHEET RANGE]",
+        "event_labels": "[SPREADSHEET RANGE]",
+        "sign_in_info": "[SPREADSHEET RANGE]"
+    },
+    "google_ids": {
+        "root_drive_id": "[GOOGLE DRIVE ID]",
+        "membership_log_id": "[GOOGLE SHEETS ID]"
+    }
+}
