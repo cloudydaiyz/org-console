@@ -1,3 +1,4 @@
+![Static Badge](https://img.shields.io/badge/version-1.0-blue)
 # org-console
 Originating from previous membership-auto project: https://github.com/cloudydaiyz/membership-auto
 
