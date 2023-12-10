@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABCS Console</title>
     
+    <link rel="icon" href="public/logo.svg" type="image/x-icon">:
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Galindo&family=Londrina+Shadow&display=swap" rel="stylesheet">
@@ -12,8 +13,8 @@
 </head>
 <body>
     <div class="console">
-        <p class="title">ABCS Console</p>
-        <p>View the membership logs <a href="https://docs.google.com/spreadsheets/d/1b9E8FIy3cgeNqitfEaY-Li0ygXDFpJo0dwjVUxZu5lM/edit">here</a>.</p>
+        <p class="title"><%= data.org_name %> Console</p>
+        <p>View the membership logs <a href=<%= `https://docs.google.com/spreadsheets/d/${data.membership_log_id}/edit` %>>here</a>.</p>
         <p>Select one of the options below to perform an action.</p>
         <div class="list-item">
             <button onClick="updateMembershipLogs()">Click me</button>

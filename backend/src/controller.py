@@ -59,7 +59,7 @@ def pull_existing_data():
     if vals != None:
         for row in vals:
             event_data.add_member(row[0], row[1], row[2], row[3], row[4], row[5])
-    print(event_data.all_members)
+    # print(event_data.all_members)
 
 # Retrieve event data from the sign in folder
 def pull_event_data():
@@ -71,7 +71,7 @@ def pull_event_data():
         return
     
     for file in files:
-        print(file)
+        # print(file) 
         file_name = file["name"]
         file_id = file["id"]
 

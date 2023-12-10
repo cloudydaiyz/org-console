@@ -1,8 +1,6 @@
 FROM node:21-alpine
 
-ARG PORT
-
-ENV APP_PORT=8080
+ENV APP_PORT=80
 
 WORKDIR /app
 

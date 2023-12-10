@@ -1,8 +1,6 @@
 FROM python:3.9.18-alpine
 
-ARG PORT
-
-ENV APP_PORT=5000
+ENV APP_PORT=5001
 
 WORKDIR /app
 
