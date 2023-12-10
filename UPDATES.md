@@ -1,5 +1,5 @@
 ![Static Badge](https://img.shields.io/badge/version-1.0-blue)
-# Organization Console - Release Logs
+# org-console Release Logs
 
 ## Next Goals
 - Add functionality for sending a leadership update email
